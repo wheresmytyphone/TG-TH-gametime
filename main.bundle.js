@@ -52,21 +52,40 @@
 
 	__webpack_require__(2);
 	var Bird = __webpack_require__(6);
+	var Obstacle = __webpack_require__(7);
 
 	const canvas = document.getElementById('game');
 	const context = canvas.getContext('2d');
 
-	var bird = new Bird(50, 50, 10, 10, 'blue');
+	var bird = new Bird(50, 50, 10, 10, 'red');
+
+	var obstacle = new Obstacle(500, 100, 100, 100, 'green');
+
+	var direction = {
+	  x: 1,
+	  y: 2
+	};
+	var obDirection = {
+	  x: 1,
+	  y: 2
+	};
 
 	function gameLoop() {
 	  context.clearRect(0, 0, canvas.width, canvas.height);
 
+	  obstacle.draw(context);
+	  obstacle.move(obDirection);
 	  bird.draw(context);
 	  bird.fly(direction);
 
 	  requestAnimationFrame(gameLoop);
 	}
 	requestAnimationFrame(gameLoop);
+
+	window.addEventListener('click', function (event) {
+	  bird.y = bird.y - 10;
+	  console.log(bird);
+	});
 
 /***/ }),
 /* 2 */
@@ -103,7 +122,7 @@
 
 
 	// module
-	exports.push([module.id, "#game {\n  border: 1px dashed;\n  margin: auto;\n  display: block;\n}\n", ""]);
+	exports.push([module.id, "#game {\n  background-image: url(\"http://www.storywarren.com/wp-content/uploads/2016/09/space-1.jpg\");\n  background-size: contain;\n  border: 1px dashed;\n  margin: auto;\n  display: block;\n}\n", ""]);
 
 	// exports
 
@@ -435,11 +454,36 @@
 	  }
 
 	  fly(direction) {
-	    this.x += direcion.x;
+	    this.y += direction.y;
 	  }
 	}
 
 	module.exports = Bird;
+
+/***/ }),
+/* 7 */
+/***/ (function(module, exports) {
+
+	class Obstacle {
+	  constructor(x, y, width, height, color) {
+	    this.x = x;
+	    this.y = y;
+	    this.width = width;
+	    this.height = height;
+	    this.color = color;
+	  }
+
+	  draw(context) {
+	    context.fillStyle = this.color;
+	    context.fillRect = (this.x, this.y, this.width, this.height);
+	  }
+
+	  move(direction) {
+	    this.x += direction.x;
+	  }
+	}
+
+	module.exports = Obstacle;
 
 /***/ })
 /******/ ]);

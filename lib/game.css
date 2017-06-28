@@ -6,3 +6,9 @@
   margin: auto;
   display: block;
 }
+
+h3 {
+  font-size: 100px;
+  margin: auto;
+  text-align: center;
+}

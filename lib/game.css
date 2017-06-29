@@ -1,0 +1,15 @@
+#game {
+  /*background-image: url("https://static.pexels.com/photos/27403/pexels-photo-27403.jpg");*/
+  /*background-position: center;*/
+  /*background-size: cover;*/
+  background-color: black;
+  border: 1px dashed;
+  margin: auto;
+  display: block;
+}
+
+h3 {
+  font-size: 50px;
+  margin: auto;
+  text-align: center;
+}

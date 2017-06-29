@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 game-time-starter-kit-fem1@1.0.0 /Users/tylergarner/Desktop/mod2/gametime
 ├─┬ eslint@4.1.1 
 │ ├─┬ concat-stream@1.6.0 
@@ -82,6 +83,10 @@ game-time-starter-kit-fem1@1.0.0 /Users/tylergarner/Desktop/mod2/gametime
 │ │ ├── ajv-keywords@1.5.1 
 │ │ └── slice-ansi@0.0.4 
 │ └── text-table@0.2.0 
+=======
+game-time-starter-kit-fem1@1.0.0 /Users/tylerhevia/Turing/2mod/TG-TH-gametime
+├── eslint@4.1.1 
+>>>>>>> 4c2eccd9fc43cfd9b528c850efccfb91d8a72c58
 ├── eslint-config-standard@10.2.1 
 ├─┬ eslint-plugin-import@2.6.1 
 │ ├── builtin-modules@1.1.1 

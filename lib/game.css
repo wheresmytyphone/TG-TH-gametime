@@ -1,7 +1,8 @@
 #game {
-  background-image: url("http://cdn3-www.dogtime.com/assets/uploads/gallery/30-impossibly-cute-puppies/impossibly-cute-puppy-21.jpg");
-  background-position: center;
-  background-size: cover;
+  /*background-image: url("https://static.pexels.com/photos/27403/pexels-photo-27403.jpg");*/
+  /*background-position: center;*/
+  /*background-size: cover;*/
+  background-color: black;
   border: 1px dashed;
   margin: auto;
   display: block;

@@ -1,6 +1,7 @@
 #game {
-  /*background-image: url("https://static.pexels.com/photos/27403/pexels-photo-27403.jpg");*/
+  /*background-image: url("http://1.bp.blogspot.com/_BMsNxzAJ8Wo/S-CDy0f3qmI/AAAAAAAAAAw/AkgpMlpk9xI/s1600/interior+de+cueva.jpg");*/
   /*background-position: center;*/
+  /*background-repeat: no-repeat;*/
   /*background-size: cover;*/
   background-color: black;
   border: 1px dashed;
@@ -12,4 +13,8 @@ h3 {
   font-size: 50px;
   margin: auto;
   text-align: center;
+}
+
+.score {
+  font-size: 50px;
 }

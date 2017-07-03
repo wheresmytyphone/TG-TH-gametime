@@ -1,9 +1,5 @@
 #game {
-  /*background-image: url("http://1.bp.blogspot.com/_BMsNxzAJ8Wo/S-CDy0f3qmI/AAAAAAAAAAw/AkgpMlpk9xI/s1600/interior+de+cueva.jpg");*/
-  /*background-position: center;*/
-  /*background-repeat: no-repeat;*/
-  /*background-size: cover;*/
-  background-color: black;
+  background-color: lightgray;
   border: 1px dashed;
   margin: auto;
   display: block;
@@ -17,4 +13,11 @@ h3 {
 
 .score {
   font-size: 50px;
+}
+
+.start-window {
+  background-color: white;
+  font: black;
+  height: 150px;
+  width: 150px;
 }

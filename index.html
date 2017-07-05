@@ -6,12 +6,28 @@
   <link href='game.css' rel='stylesheet'/>
 </head>
 <body>
+  <div class='game-area'>
 
-  <canvas id='game' width='600' height='600'>
-    Flappy Bird
-  </canvas>
+    <p class='instructions'>
+      Press 'Space' or click the mouse to flap. </br>
+      Avoid the obstacles!
+    </p>
 
-  <h3>Score: <span class='score'>0</span></h3>
+    <canvas id='game' width='600' height='600'>
+      Flappy Bird
+    </canvas>
+
+    <div class='difficulty-div'>
+
+      <button class='easy'>EASY MODE</button>
+      <button class='hard'>HARD MODE</button>
+
+    </div>
+
+  </div>
+
+    <h3>Score: <span class='score'>0</span></h3>
+
 
   <script src="main.bundle.js"></script>
 </body>

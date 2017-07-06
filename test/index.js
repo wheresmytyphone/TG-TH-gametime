@@ -1,4 +1,13 @@
-var { expect } = require('chai');
+var chai = require('chai');
 var game = require('../lib/game.js')
 var obstacle = require('../lib/Obstacle.js')
-var bird = require('../lib/Bird.js')
+var ufo = require('../lib/Ufo.js')
+
+describe('Ufo', function() {
+  let snake;
+
+  beforeEach(function () {
+    snake = new Snake()
+  })
+
+})

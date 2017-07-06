@@ -12,11 +12,11 @@ body {
   background-color: lightgray;
   background-image: url("http://img12.deviantart.net/b7a8/i/2013/028/7/6/cave_background_by_nictrillos-d5t0t2m.jpg");
   border: 1px dashed;
+  color: white;
   margin: auto;
   display: block;
 }
 
-#game,
 .instructions,
 .difficulty-div {
   color: white;
@@ -34,6 +34,21 @@ body {
 
 .easy {
   margin-bottom: 20px;
+}
+
+button:hover {
+  background-color: yellow;
+  color: black;
+}
+
+button:active {
+  background-color: blue;
+  color: white;
+}
+
+button:focus {
+  background-color: red;
+  color: white;
 }
 
 h3 {

@@ -1,5 +1,6 @@
 body {
-  background-image: url("http://img01.deviantart.net/7a5d/i/2014/168/3/c/magma_cave_by_jasonarichards-d7mscfg.png");
+  background-image: url("http://img12.deviantart.net/b7a8/i/2013/028/7/6/cave_background_by_nictrillos-d5t0t2m.jpg");
+  background-color: darkgray;
 }
 
 .game-area {
@@ -9,14 +10,17 @@ body {
 }
 
 #game {
-  background-color: lightgray;
-  background-image: url("http://img12.deviantart.net/b7a8/i/2013/028/7/6/cave_background_by_nictrillos-d5t0t2m.jpg");
+  background-color: #696A89;
   border: 1px dashed;
+  color: white;
   margin: auto;
   display: block;
 }
 
-#game,
+.instructions {
+  font-size: 30px;
+}
+
 .instructions,
 .difficulty-div {
   color: white;
@@ -34,6 +38,25 @@ body {
 
 .easy {
   margin-bottom: 20px;
+}
+
+button:hover {
+  background-color: yellow;
+  color: black;
+}
+
+button:active {
+  background-color: blue;
+  border: none;
+  color: white;
+  outline: none;
+}
+
+button:focus {
+  background-color: red;
+  border: none;
+  color: white;
+  outline: none;
 }
 
 h3 {

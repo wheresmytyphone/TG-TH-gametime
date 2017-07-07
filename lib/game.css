@@ -38,34 +38,6 @@ body {
   align-items: center;
 }
 
-button {
-  height: 30px;
-  width: 200px;
-}
-
-.easy {
-  margin-bottom: 20px;
-}
-
-button:hover {
-  background-color: yellow;
-  color: black;
-}
-
-button:active {
-  background-color: blue;
-  border: none;
-  color: white;
-  outline: none;
-}
-
-button:focus {
-  background-color: red;
-  border: none;
-  color: white;
-  outline: none;
-}
-
 h3 {
   color: white;
   font-size: 30px;
@@ -73,7 +45,8 @@ h3 {
   text-align: center;
 }
 
-.score {
+.objective {
+  color: white;
   font-size: 30px;
 }
 

@@ -10,8 +10,7 @@ body {
 }
 
 #game {
-  background-color: lightgray;
-  /*background-image: url("http://img12.deviantart.net/b7a8/i/2013/028/7/6/cave_background_by_nictrillos-d5t0t2m.jpg");*/
+  background-color: #696A89;
   border: 1px dashed;
   color: white;
   margin: auto;
@@ -48,12 +47,16 @@ button:hover {
 
 button:active {
   background-color: blue;
+  border: none;
   color: white;
+  outline: none;
 }
 
 button:focus {
   background-color: red;
+  border: none;
   color: white;
+  outline: none;
 }
 
 h3 {

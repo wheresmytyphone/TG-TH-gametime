@@ -19,6 +19,7 @@ body {
 
 .instructions {
   font-size: 30px;
+  margin: auto;
 }
 
 .instructions,
@@ -34,29 +35,7 @@ body {
 
 .difficulty-div {
   flex-direction: column;
-}
-
-.easy {
-  margin-bottom: 20px;
-}
-
-button:hover {
-  background-color: yellow;
-  color: black;
-}
-
-button:active {
-  background-color: blue;
-  border: none;
-  color: white;
-  outline: none;
-}
-
-button:focus {
-  background-color: red;
-  border: none;
-  color: white;
-  outline: none;
+  align-items: center;
 }
 
 h3 {
@@ -66,7 +45,8 @@ h3 {
   text-align: center;
 }
 
-.score {
+.objective {
+  color: white;
   font-size: 30px;
 }
 

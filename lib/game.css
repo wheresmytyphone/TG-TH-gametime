@@ -19,6 +19,7 @@ body {
 
 .instructions {
   font-size: 30px;
+  margin: auto;
 }
 
 .instructions,
@@ -34,6 +35,12 @@ body {
 
 .difficulty-div {
   flex-direction: column;
+  align-items: center;
+}
+
+button {
+  height: 30px;
+  width: 200px;
 }
 
 .easy {

@@ -1,6 +1,8 @@
 body {
-  background-image: url("http://img12.deviantart.net/b7a8/i/2013/028/7/6/cave_background_by_nictrillos-d5t0t2m.jpg");
+  background-image: url("https://images7.alphacoders.com/618/thumb-1920-618836.jpg");
   background-color: darkgray;
+  font-family: 'Avenir Next';
+  font-weight: bold;
 }
 
 .game-area {
@@ -11,31 +13,39 @@ body {
 
 #game {
   background-color: #696A89;
+  background-image: url("https://images.alphacoders.com/618/618835.jpg");
   border: 1px dashed;
   color: white;
-  margin: auto;
   display: block;
+  margin: auto;
 }
 
 .instructions {
+  background-color: white;
+  border: 3px solid black;
+  color: blue;
+  display: flex;
   font-size: 30px;
   margin: auto;
-}
-
-.instructions,
-.difficulty-div {
-  color: white;
-  display: flex;
-}
-
-.instructions,
-.difficulty-div {
   width: 20%;
 }
 
-.difficulty-div {
-  flex-direction: column;
-  align-items: center;
+.objective {
+  background-color: white;
+  border: 3px solid black;
+  color: blue;
+  font-size: 30px;
+}
+
+.instructions,
+.objective {
+  text-align: center;
+  width: 250px;
+}
+
+.spacebar {
+  height: 20px;
+  width: 100px;
 }
 
 h3 {
@@ -45,10 +55,6 @@ h3 {
   text-align: center;
 }
 
-.objective {
-  color: white;
-  font-size: 30px;
-}
 
 .start-window {
   background-color: white;

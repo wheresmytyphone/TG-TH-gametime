@@ -60,10 +60,7 @@ button {
   height: 30px;
   margin-bottom: 20px;
   width: 100%;
-}
-
-button:pressed {
-  background-color: red;
+  outline: none;
 }
 
 .difficulty-text {

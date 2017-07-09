@@ -1,6 +1,7 @@
 const { assert, it, describe } = require('chai');
 require('../lib/game.js');
-const { updateScore, startPrompt, startNewGameAfterDeath, saveHighScore, drawHighScore, createObstacle, drawObstacles, drawGround, drawUfo, checkForCollision, gameLoop } = require('../lib/game.js');
+const { startPrompt, startNewGameAfterDeath, saveHighScore, drawHighScore, createObstacle, drawObstacles, drawGround, drawUfo, checkForCollision, gameLoop } = require('../lib/game.js');
+const updateScore = require('../lib/game.js').updateScore;
 
 describe('updateScore', () => {
   it('should be a function', () => {

@@ -30,10 +30,17 @@ body {
   width: 20%;
 }
 
+.right-side {
+  display: flex;
+  flex-direction: column;
+}
+
 .objective {
   background-color: white;
   border: 3px solid black;
   color: blue;
+  display: flex;
+  flex-direction: column;
   font-size: 30px;
 }
 
@@ -43,9 +50,23 @@ body {
   width: 250px;
 }
 
-.spacebar {
-  height: 20px;
-  width: 100px;
+button {
+  width: 100%;
+}
+
+.difficulty-text {
+  background-color: white;
+  border: 3px solid black;
+  color: blue;
+  display: flex;
+  font-size: 30px;
+  margin: auto;
+  width: 20%;
+}
+
+.current-difficulty {
+  color: blue;
+  font-size: 30px;
 }
 
 h3 {

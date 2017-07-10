@@ -14,7 +14,7 @@ body {
 #game {
   background-color: #696A89;
   background-image: url("https://images.alphacoders.com/618/618835.jpg");
-  border: 1px dashed;
+  border: 1px solid;
   color: white;
   display: block;
   margin: auto;
@@ -76,6 +76,7 @@ button {
 .current-difficulty {
   color: blue;
   font-size: 30px;
+  width: 85px;
 }
 
 h3 {
